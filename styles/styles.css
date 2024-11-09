@@ -1,0 +1,41 @@
+/* popup.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  
+  input[type="file"] {
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #result-container {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #result-container p {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #result-container .deepfake {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  #result-container .real {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  #result-container .error {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  

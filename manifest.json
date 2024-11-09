@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Deepfake Checker",
+    "version": "1.0",
+    "description": "Upload an image to detect if it's a deepfake.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background/background.js"
+    },
+    "action": {
+      "default_popup": "popup/popup.html"
+    },
+    "host_permissions": [
+      "http://localhost:8000/"
+    ]
+  }
+  
